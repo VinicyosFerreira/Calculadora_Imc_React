@@ -1,0 +1,49 @@
+.container {
+    background-color: #1d1e33;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+}
+
+.inputs {
+    display: block;
+}
+
+.inputs input {
+    margin-bottom: 20px;
+    width: 88%;
+}
+
+.inputs span {
+    margin-left: 18px;
+    font-weight: bolder;
+}
+
+.error {
+    text-align: center;
+    color : rgb(210, 44, 44);
+    font-size: 1.2em;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0px auto;
+    width : 90%
+}
+
+.button input {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.button input:nth-child(1) {
+   background-color:rgb(210, 44, 44)
+}

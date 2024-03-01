@@ -1,0 +1,46 @@
+.container {
+    background-color: #1d1e33;
+    height: 550px;
+    width: 450px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.info p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table td , .table th{
+    padding: 10px 12px;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+}
+
+.thiness {
+    color : #dbce12
+}
+
+.normal {
+    color : #12db34
+}
+
+.overweight , .obesity{
+    color : #db6212
+}
+
+.severyObesity {
+    color : #db1912
+}
