@@ -9,7 +9,6 @@ function Calculator({data , setControl}) {
  
   const handleSubmit = (e) =>  {
     if(!validateHeight(height) || !validateWeight(weight)) {
-      console.log(weight)
       e.preventDefault();
       setError(true);
       return;

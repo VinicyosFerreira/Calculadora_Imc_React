@@ -2,7 +2,7 @@
     background-color: #1d1e33;
     height: 550px;
     width: 450px;
-    margin-top: 40px;
+    margin-top: 40px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,4 +43,11 @@
 
 .severyObesity {
     color : #db1912
+}
+
+@media screen and (max-width : 500px) {
+    .container{
+        height: 800px;
+        width: 300px;
+    }
 }

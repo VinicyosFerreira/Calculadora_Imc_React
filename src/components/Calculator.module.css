@@ -47,3 +47,10 @@
 .button input:nth-child(1) {
    background-color:rgb(210, 44, 44)
 }
+
+@media screen and (max-width : 500px) {
+    .container{
+        height: 350px;
+        width: 300px;
+    }
+}
