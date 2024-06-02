@@ -17,9 +17,11 @@ uma validação para evitar digitos e informações que não sejam pertinetes
 #### Tecnologias ####
 React -> usado para acoplar e estruturar o projeto, separando por componentes cada parte
 do projeto, além do uso de hooks, props, controle de estado, formulários e eventos visando
-o melhor uso da biblioteca
-JS -> usado JS para elaborar a logica como validações de campos e cálculo do IMC
-Css Modules -> implementado na estilização dos componentes e no layout geral
+o melhor uso da biblioteca.
+
+JS -> usado JS para elaborar a logica como validações de campos e cálculo do IMC.
+
+Css Modules -> implementado na estilização dos componentes e no layout geral.
 
 #### Desafios Enfrentados ####
 Diante do desenvolvimento, o maior desafio foi a implementação da alternância entre o formulário
